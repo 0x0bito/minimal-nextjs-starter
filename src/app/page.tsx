@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20">
@@ -96,6 +98,9 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+      <Button className="dark:text-light bg-slate-800 px-8 py-4 text-lg font-semibold dark:bg-red-500">
+        Click Me!
+      </Button>
     </div>
   );
 }
