@@ -2,6 +2,7 @@
   "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
   "plugins": ["check-file"],
   "rules": {
+    "no-var": "off",
     "prefer-arrow-callback": "error",
     "semi": "error",
     "quotes": ["error", "double"],
