@@ -1,6 +1,6 @@
 # Next.js Minimal Starter
 
-This is a minimal starter template for building applications with [Next.js](https://nextjs.org). It provides essential features to help you get started quickly.
+A basic [Next.js](https://nextjs.org) starter with sensible defaults for eslint, prettier, typescript and vscode.
 
 ## Features
 - Light and dark mode
