@@ -5,7 +5,7 @@ A basic [Next.js](https://nextjs.org) starter with sensible defaults for eslint,
 ## Features
 - Light and dark mode
 - A Minimal Database integration using Prisma
-- State Management: Integrated [Zustand](https://github.com/pmndrs/zustand) for global state management.
+- State Management: Integrated [Zustand](https://github.com/pmndrs/zustand) for global state management + Persisting State (SessionStorage or LocalStorage).
 - Styled with Tailwind CSS.
 
 ### Installation
